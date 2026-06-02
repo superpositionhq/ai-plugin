@@ -5,10 +5,8 @@
     {
       "name": "superposition",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/superpositionhq/ai-plugin.git",
-        "path": ".",
-        "ref": "main"
+        "source": "local",
+        "path": "."
       },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
       "category": "Productivity"

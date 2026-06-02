@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "superposition",
   "displayName": "Superposition",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Drive Superposition recruiting — bootstrap your company profile, triage the candidate review backlog, and check pipeline health — from your coding agent.",
   "author": {
     "name": "Superposition",
