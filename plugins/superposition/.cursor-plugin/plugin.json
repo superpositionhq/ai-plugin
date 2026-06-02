@@ -1,0 +1,19 @@
+{
+  "name": "superposition",
+  "displayName": "Superposition",
+  "version": "1.0.4",
+  "description": "Superposition recruiting skills + hosted MCP server for Cursor.",
+  "author": {
+    "name": "Superposition",
+    "email": "team@superposition.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "recruiting",
+    "ats",
+    "candidates",
+    "hiring",
+    "pipeline"
+  ],
+  "logo": "assets/logo.png"
+}

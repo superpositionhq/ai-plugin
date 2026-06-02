@@ -1,0 +1,17 @@
+{
+  "name": "superposition",
+  "version": "1.0.4",
+  "description": "Access Superposition recruiting from Gemini CLI — company profile, candidate review, pipeline health.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "superposition": {
+      "command": "npx",
+      "args": [
+        "mcp-remote@latest",
+        "https://app.superposition.ai/mcp",
+        "--header",
+        "x-spa-mcp-consumer:plugin"
+      ]
+    }
+  }
+}

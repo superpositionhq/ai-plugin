@@ -1,0 +1,42 @@
+{
+  "name": "superposition",
+  "version": "1.0.4",
+  "description": "Access Superposition recruiting from Codex — company profile, candidate review, pipeline health.",
+  "author": {
+    "name": "Superposition",
+    "email": "team@superposition.ai",
+    "url": "https://superposition.ai"
+  },
+  "homepage": "https://app.superposition.ai",
+  "repository": "https://github.com/superpositionhq/ai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "recruiting",
+    "ats",
+    "candidates",
+    "hiring",
+    "pipeline"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Superposition",
+    "shortDescription": "Recruiting copilot: company soul, candidate review, pipeline health.",
+    "longDescription": "Bootstrap your company profile, triage the candidate review backlog in full-auto or human-in-the-loop, and check pipeline health — directly from Codex, through Superposition's hosted MCP server.",
+    "developerName": "Superposition",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://superposition.ai",
+    "privacyPolicyURL": "https://superposition.ai/privacy",
+    "termsOfServiceURL": "https://superposition.ai/terms",
+    "defaultPrompt": [
+      "Bootstrap our company soul",
+      "Review the candidate backlog with me",
+      "What's my pipeline health this week?"
+    ],
+    "logo": "./assets/logo.png"
+  }
+}
