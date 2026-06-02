@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "superposition",
+  "description": "Superposition's official AI plugin — recruiting agent skills plus the hosted Superposition MCP server.",
+  "owner": { "name": "Superposition", "email": "team@superposition.ai" },
+  "plugins": [
+    {
+      "name": "superposition",
+      "source": { "source": "github", "repo": "superpositionhq/ai-plugin" },
+      "description": "Superposition recruiting agent skills + hosted MCP server.",
+      "category": "productivity"
+    }
+  ]
+}

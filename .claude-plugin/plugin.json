@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "superposition",
+  "displayName": "Superposition",
+  "version": "1.0.1",
+  "description": "Drive Superposition recruiting — bootstrap your company profile, triage the candidate review backlog, and check pipeline health — from your coding agent.",
+  "author": {
+    "name": "Superposition",
+    "email": "team@superposition.ai",
+    "url": "https://superposition.ai"
+  },
+  "homepage": "https://app.superposition.ai",
+  "repository": "https://github.com/superpositionhq/ai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "recruiting",
+    "ats",
+    "candidates",
+    "hiring",
+    "pipeline",
+    "superposition"
+  ],
+  "defaultEnabled": false
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "superposition": {
+      "type": "http",
+      "url": "https://app.superposition.ai/mcp",
+      "headers": { "x-spa-mcp-consumer": "plugin" }
+    }
+  }
+}

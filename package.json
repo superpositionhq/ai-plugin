@@ -1,0 +1,13 @@
+{
+  "name": "@superposition/ai-plugin",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Source of truth for the public Superposition AI plugin (synced to superpositionhq/ai-plugin). The `version` field is the release lever for the sync workflow.",
+  "license": "MIT",
+  "homepage": "https://github.com/superpositionhq/ai-plugin",
+  "scripts": {
+    "validate": "node --experimental-strip-types scripts/validate.ts",
+    "version:set": "node --experimental-strip-types scripts/set-version.ts"
+  }
+}

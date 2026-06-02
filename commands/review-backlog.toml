@@ -1,0 +1,8 @@
+# Gemini CLI form of the same command — commands/review-backlog.toml → /superposition:review-backlog
+# (Claude Code uses the .md sibling; Codex & Cursor invoke the skill directly as /superposition:review-candidates-auto.)
+description = "Triage the awaiting-review candidate backlog, unattended (full auto)."
+prompt = """
+Use the review-candidates-auto skill to triage the awaiting-review backlog without pausing between
+candidates. Record each decision via invoke_agent and return a summary table with links and any
+escalations. Scope: {{args}}
+"""
