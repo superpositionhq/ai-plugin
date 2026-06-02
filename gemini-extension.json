@@ -1,6 +1,6 @@
 {
   "name": "superposition",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Access Superposition recruiting from Gemini CLI — company profile, candidate review, pipeline health.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
